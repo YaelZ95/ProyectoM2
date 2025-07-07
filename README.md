@@ -1,0 +1,17 @@
+Proyecto hecho por Yael Zuñiga García para el curso Fundamentos de Phyton de UCamp
+
+-Longitud de una frase-
+
+¿Como se hizo el programa?: Tomando en cuenta los datos a obtener se comenzo por la declaración de una variable de tipo string que se va a usar para obtener una palabra que ingrese el usuario. 
+Despues se usó una variable que determina si la palabra cumple con los requisitos para considerarse correcta, ya que la palabra debe tener mas de 4 letras pero menos de 8 letras.
+Posteriormente se colocó un bucle que no se detiene hasta que se le indique con la variable anteriormente declarada, en ese bucle se le pide al usuario que ingrese una palabra que tenga mas de 4 letras y menos de 8 letras, despues de que se escriba la palabra el programa con las condicionales "if" determina si la palabra tiene mas de 4 letras y menos de 8 letras,
+Si la condicion se cumple imprime al usuario que la palabra es correcta, termina el bucle y cierra el programa, en caso contrario se le avisa al usuario, dependiendo de cuantas letras haya tenido la palabra (mismo que el programa identifica con otros condicionales "if"), si faltan letras o sobran letras, y de paso indica cuantas letras tiene la palabra ingresada, para despues continuar el bucle para volver a solicitar otra palabra
+
+-Encuentra el cuadrante-
+
+¿Como se hizo el programa?: Considerando que se ocupan dos variables para obtener las coordenadas X e Y se inicializó un diccionario llamado "coordenadas" con los identificadores "X" e "Y", esto para tener una mejor comprension del codigo, ademas se declararon otras 2 variables, una para comprobar datos validos y otra que servirá como apoyo para identificar los cuadrantes,
+despues en un bucle que va a ejecutarse hasta que el dato que se pida sea valido, se pide al usuario un valor para la coordenada X, una vez ingresado el programa intentara con un "try" convertir el valor obtenido previamente en un valor tipo flotante, si dicho intento fracasa, manda un mensaje de error al usuario y da paso a continuar el bucle para solicitar nuevamente el valor de la coordenada X, en cambio si el intento de conversion es exitoso prosigue a verificar que el valor no sea igual a 0, si es igual a 0 continua el bucle para pedir otro valor, en caso de que no sea igual a 0, 
+cierra el bucle y reinicia el verificador para entrar a otro bucle donde se va a hacer las mismas comprobaciones pero ahora para el valor de la coordenada Y, una vez haya hecho todas las comprobaciones y tenga registrado el valor de la coordenada Y, se hacen varias comparativas para obtener la posicion de las coordenadas en el plano haciendo que finalmente el programa pueda determinar el cuandrante donde se ubican las coordenadas e imprimiendolas, para posteriormente cerrar el programa.
+
+Reflexiones del bootcamp: Es interesante saber lo que se puede hacer con los condicionales, bucles, diccionarios y listas. 
+En las listas y diccionarios abre un abanico de posibilidades a la hora de ordenar de mejor forma los datos, y no solo eso, si no que facilitan el mantenimiento del codigo teniendo ordenado y detallado las variables que se pueden ocupar en varias ocasiones, ademas que los condicionales son una herramienta indispensable para que el codigo no se vuelva tan lineal y dependiendo de las situaciones pueda dar un resultado u otro, y en el caso de los bucles es muy buena herramienta para evitar escribir codigo de mas cuando se busca repetir los mismos comandos, en definitiva me gustó aprender a usar estas herramientas en este lenguaje de programación.
